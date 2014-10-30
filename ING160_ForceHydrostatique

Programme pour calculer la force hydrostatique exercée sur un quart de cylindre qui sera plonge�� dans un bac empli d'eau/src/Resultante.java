@@ -3,7 +3,7 @@
  * @author Cesar Jeanroy
  *
  */
-public class CalculerResultante 
+public class Resultante 
 {
 
 	/**
