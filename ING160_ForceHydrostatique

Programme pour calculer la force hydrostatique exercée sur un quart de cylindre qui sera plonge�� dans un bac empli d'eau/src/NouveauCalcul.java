@@ -1,8 +1,16 @@
+/**
+ * Classe principale qui permet de lancer le projet
+ * 
+ * @author César Jeanroy
+ *
+ */
 
 public class NouveauCalcul {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
+		
+		
 
 	}
 
