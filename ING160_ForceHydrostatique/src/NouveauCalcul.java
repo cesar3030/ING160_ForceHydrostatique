@@ -46,13 +46,10 @@ public class NouveauCalcul
 			}			
 		}
 		
-		for(double d : hauteurs)
-		{
-			System.out.println("hauteur: "+d);
-		}
+		
 		
 		sc.close();
-
+		System.exit(0);
 	}
 	
 	/**
@@ -63,14 +60,18 @@ public class NouveauCalcul
 	{
 		double r,y_barre,yc,mo,aire,distancePointApplication;
 		
+		//calcule de l'aire en m
 		if(hauteurEau > hauteurSurfacePlane)
-			aire = hauteurSurfacePlane * baseSurfacePlane;
+			aire = (hauteurSurfacePlane* 0.001) * (baseSurfacePlane* 0.001);
 		else
-			aire = hauteurEau * baseSurfacePlane;
+			aire = (hauteurEau* 0.001) * (baseSurfacePlane* 0.001);
 		
 		System.out.println("Hauteur d'eau: "+ df.format(hauteurEau)+" mm");
 		
-		y_barre= PositionCentroide.calcule(hauteurEau,hauteurSurfacePlane, hauteurTotaleDispositif);
+		if(hauteurEau > hauteurSurfacePlane)
+			y_barre= PositionCentroide.calcule(hauteurEau,hauteurSurfacePlane, hauteurTotaleDispositif);
+		else
+			y_barre= PositionCentroide.calcule(hauteurEau,hauteurEau, hauteurTotaleDispositif);
 		System.out.println("Centroide: "+ df.format(y_barre)+" mm");
 		
 		r=Resultante.calcule(RO, G, y_barre, aire);

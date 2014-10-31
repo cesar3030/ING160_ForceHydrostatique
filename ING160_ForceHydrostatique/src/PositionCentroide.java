@@ -18,7 +18,7 @@ public class PositionCentroide
 		
 		if(hauteurEau > hauteurSurfacePlane)
 		{
-			double surPlus =  hauteurTotaleDispositif - hauteurEau;
+			double surPlus =  hauteurEau - hauteurSurfacePlane;
 			y = surPlus + (hauteurSurfacePlane/2);
 		}
 		else

@@ -17,7 +17,7 @@ public class PositionCentrePression
 	public static double calcule(double y_centroide, double angle, double base, double hauteur)
 	{
 		//calcule de l'inertie de section de la surface immergée
-		double ig = 0.083333 * base * base * base * hauteur;
+		double ig = 0.083333 * hauteur * hauteur * hauteur * base;
 		
 		//calcule du centre de pression
 		double y= y_centroide+(( ig * Math.pow( Math.sin(Math.toRadians( angle )) ,2) )/(y_centroide*base*hauteur));

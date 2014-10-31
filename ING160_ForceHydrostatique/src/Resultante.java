@@ -17,7 +17,6 @@ public class Resultante
 	public static double calcule(double ro, double g, double y_barre, double aire)
 	{
 		//convertir de mm a m
-		aire= aire * 0.001;
 		y_barre= y_barre * 0.001;
 		
 		double r= ro * g * y_barre * aire;
