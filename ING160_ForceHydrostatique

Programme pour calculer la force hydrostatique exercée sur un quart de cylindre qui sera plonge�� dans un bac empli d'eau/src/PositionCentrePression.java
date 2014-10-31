@@ -14,10 +14,10 @@ public class PositionCentrePression
 	 * @param hauteur		la hauteur de la surface immergée
 	 * @return
 	 */
-	public static double calcule(float y_centroide, double angle, float base, float hauteur)
+	public static double calcule(double y_centroide, double angle, double base, double hauteur)
 	{
 		//On cacule l'aire de la surface
-		float aire = base*hauteur;
+		double aire = base*hauteur;
 		
 		//calcule de l'inertie de section de la surface immergée
 		double ig= (1/12) * Math.pow(base,3) * hauteur;

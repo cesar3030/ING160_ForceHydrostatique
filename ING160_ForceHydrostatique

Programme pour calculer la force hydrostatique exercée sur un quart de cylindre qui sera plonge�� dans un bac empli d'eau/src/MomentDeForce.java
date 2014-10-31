@@ -11,9 +11,9 @@ public class MomentDeForce
 	 * @param resultante					la valeur de la resultante.
 	 * @return
 	 */
-	public static float calcule(float distancePointApplication, float resultante)
+	public static double calcule(double distancePointApplication, double resultante)
 	{
-		float moment = distancePointApplication * resultante;
+		double moment = distancePointApplication * resultante;
 		
 		return moment;
 	}

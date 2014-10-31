@@ -12,9 +12,9 @@ public class PositionCentroide
 	 * @param distanceDeLaSurface		distance entre la partie suppérieure de la surface immergée et la surface de l'eau
 	 * @return
 	 */
-	public static double calcule(float hauteurSurfacePlane, float distanceDeLaSurface)
+	public static double calcule(double hauteurSurfacePlane, double distanceDeLaSurface)
 	{
-		double y= distanceDeLaSurface+(hauteurSurfacePlane/2);
+		double y = distanceDeLaSurface+(hauteurSurfacePlane/2);
 		return y;
 	}
 }

@@ -14,7 +14,7 @@ public class Resultante
 	 * @param aire			l'aire de la surface immergée
 	 * @return
 	 */
-	public static double calcule(float ro, float g, float y_barre, float aire)
+	public static double calcule(double ro, double g, double y_barre, double aire)
 	{
 		double r= ro * g * y_barre * aire;
 		return r;
