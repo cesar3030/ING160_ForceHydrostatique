@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
-encoding//src/MomentDeForce.java=UTF-8
-encoding//src/NouveauCalcul.java=UTF-8
-encoding//src/PositionCentrePression.java=UTF-8
-encoding//src/PositionCentroide.java=UTF-8
-encoding//src/Resultante.java=UTF-8
+encoding//src/model/MomentDeForce.java=UTF-8
+encoding//src/model/NouveauCalcul.java=UTF-8
+encoding//src/model/PositionCentrePression.java=UTF-8
+encoding//src/model/PositionCentroide.java=UTF-8
+encoding//src/model/Resultante.java=UTF-8

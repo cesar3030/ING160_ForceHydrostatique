@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 7 [1.7.0_51]"/>
+	<classpathentry kind="lib" path="/Users/Iron_Cesar/git/ING160_ForceHydrostatique/ING160_ForceHydrostatique/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="/Users/Iron_Cesar/git/ING160_ForceHydrostatique/ING160_ForceHydrostatique/mockito-all-1.9.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
